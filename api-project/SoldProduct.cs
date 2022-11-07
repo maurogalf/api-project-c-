@@ -8,10 +8,10 @@ namespace api_project
 {
     internal class SoldProduct
     {
-        public int Id { get; set; }
-        public int IdProduct { get; set; }
-        public int Stock { get; set; }
-        public int IdOrder { get; set; }
+        public int Id;
+        public int IdProduct;
+        public int Stock;
+        public int IdOrder;
 
     public SoldProduct (int id, int idProduct, int stock, int idOrder)
     {

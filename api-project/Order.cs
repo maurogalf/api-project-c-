@@ -8,8 +8,8 @@ namespace api_project
 {
     internal class Order
     {
-        public int Id { get; set; }
-        public string Coments { get; set; }
+        public int Id;
+        public string Coments;
         public Order ( int id, string coments)
         {
             this.Id = id;
