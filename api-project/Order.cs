@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace api_project
 {
-    internal class Order
+    public class Order
     {
         public int Id;
         public string Coments;

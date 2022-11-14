@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace api_project
 {
-    internal class SoldProduct
+    public class SoldProduct
     {
         public int Id;
         public int IdProduct;
